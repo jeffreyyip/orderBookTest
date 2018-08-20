@@ -1,5 +1,9 @@
 # orderBookTest
 
+TEST the unit tests:
+
+mvn test
+
 BUILD:
 
 mvn clean package
@@ -10,7 +14,4 @@ cd target
 
 java -jar orderbook-1.0-SNAPSHOT.jar
 
-TEST the unit tests:
-
-mvn test
 
